@@ -1,0 +1,458 @@
+ :root {
+            --primary-color: #f8bbd0;
+            --secondary-color: #f48fb1;
+            --dark-pink: #ec407a;
+            --light-pink: #ffcdd2;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff9fb;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 150px 0;
+            text-align: center;
+        }
+        
+        .logo-font {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem;
+            color: var(--dark-pink);
+        }
+        
+        .nav-link {
+            color: #333;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+        
+        .nav-link:hover {
+            color: var(--dark-pink);
+        }
+        
+        .btn-primary {
+            background-color: var(--dark-pink);
+            border-color: var(--dark-pink);
+            padding: 10px 25px;
+        }
+        
+        .btn-primary:hover {
+            background-color: #d81b60;
+            border-color: #d81b60;
+        }
+        
+        .section-title {
+            font-family: 'Dancing Script', cursive;
+            color: var(--dark-pink);
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+        }
+        
+        .card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .card-img-top {
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .price {
+            color: var(--dark-pink);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        .about-section {
+            background-color: var(--light-pink);
+            padding: 80px 0;
+        }
+        
+        .testimonial-section {
+            background: linear-gradient(rgba(244, 143, 177, 0.8), rgba(244, 143, 177, 0.8)), 
+                        url('https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 0;
+        }
+        
+        .testimonial-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 15px;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        
+        .client-name {
+            font-weight: bold;
+            color: var(--dark-pink);
+        }
+        
+        .contact-section {
+            padding: 80px 0;
+        }
+        
+        .contact-icon {
+            font-size: 2rem;
+            color: var(--dark-pink);
+            margin-bottom: 15px;
+        }
+            /* Team Section Styles */
+    .team-section {
+        background-color: white;
+    }
+    
+    .team-card {
+        transition: all 0.3s ease;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    
+    .team-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(244, 143, 177, 0.2);
+    }
+    
+    .team-img-container {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 3px solid var(--light-pink);
+    }
+    
+    .team-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease;
+    }
+    
+    .team-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(236, 64, 122, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: all 0.3s ease;
+        border-radius: 50%;
+    }
+    
+    .team-img-container:hover .team-overlay {
+        opacity: 1;
+    }
+    
+    .team-social a {
+        color: white;
+        margin: 0 10px;
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+    }
+    
+    .team-social a:hover {
+        color: var(--light-pink);
+        transform: translateY(-3px);
+    }
+    
+    .team-bio {
+        font-size: 0.9rem;
+        color: #666;
+    }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+        }
+        
+        .social-icons a {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 10px;
+        }
+        
+        .social-icons a:hover {
+            color: var(--light-pink);
+        }
+        .testimonial-section {
+        background: linear-gradient(rgba(244, 143, 177, 0.9), rgba(244, 143, 177, 0.9)), 
+                    url('https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .testimonial-scroll-container {
+        overflow-x: hidden;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .testimonial-scroll {
+        display: flex;
+        transition: transform 0.5s ease;
+        width: 100%;
+    }
+
+    .testimonial-card {
+        background-color: rgba(255, 255, 255, 0.95);
+        color: #333;
+        border-radius: 15px;
+        padding: 30px;
+        flex: 0 0 30%;
+        margin: 0 1.5%;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .testimonial-text {
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    .client-name {
+        font-weight: bold;
+        color: var(--dark-pink);
+        margin-bottom: 5px;
+    }
+
+    .testimonial-arrow {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: var(--dark-pink);
+        border: none;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+
+    .testimonial-arrow:hover {
+        background-color: var(--dark-pink);
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .testimonial-arrow-left {
+        left: -25px;
+    }
+
+    .testimonial-arrow-right {
+        right: -25px;
+    }
+
+    @media (max-width: 768px) {
+        .testimonial-card {
+            flex: 0 0 80%;
+            margin: 0 10%;
+        }
+    }
+    /* Enhanced About Section Styles */
+    .about-section {
+        background-color: var(--light-pink);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .about-section::before {
+        content: "";
+        position: absolute;
+        top: -50px;
+        left: -50px;
+        width: 200px;
+        height: 200px;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ec407a" opacity="0.1" d="M30,50 Q50,30 70,50 T90,50 T70,70 T50,90 T30,70 T10,50 T30,30 Z"></path></svg>');
+        background-size: contain;
+        z-index: 0;
+        animation: float 6s ease-in-out infinite;
+    }
+    
+    .about-section::after {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        right: -30px;
+        width: 150px;
+        height: 150px;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ec407a" opacity="0.1" d="M20,50 Q50,20 80,50 Q50,80 20,50 Z"></path></svg>');
+        background-size: contain;
+        z-index: 0;
+        animation: float 8s ease-in-out infinite 2s;
+    }
+    
+    .about-img-container {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .main-img {
+        transition: all 0.5s ease;
+        z-index: 2;
+        position: relative;
+    }
+    
+    .main-img:hover {
+        transform: scale(1.02) rotate(1deg);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.2) !important;
+    }
+    
+    .floating-cake {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 3px solid white;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        overflow: hidden;
+        z-index: 3;
+        transition: all 0.5s ease;
+    }
+    
+    .cake-1 {
+        top: -20px;
+        left: -20px;
+        animation: float 5s ease-in-out infinite;
+    }
+    
+    .cake-2 {
+        bottom: -20px;
+        right: -20px;
+        animation: float 7s ease-in-out infinite 1s;
+    }
+    
+    .cake-3 {
+        top: 50%;
+        right: -30px;
+        transform: translateY(-50%);
+        animation: float 6s ease-in-out infinite 0.5s;
+    }
+    
+    .floating-cake:hover {
+        transform: scale(1.1);
+        z-index: 4;
+    }
+    
+    .about-timeline {
+        position: relative;
+        padding-left: 30px;
+    }
+    
+    .about-timeline::before {
+        content: "";
+        position: absolute;
+        left: 10px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: var(--dark-pink);
+    }
+    
+    .timeline-item {
+        position: relative;
+        margin-bottom: 20px;
+        opacity: 0;
+        transform: translateX(-20px);
+        transition: all 0.5s ease;
+    }
+    
+    .timeline-item.active {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+    .timeline-year {
+        position: absolute;
+        left: -30px;
+        top: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: var(--dark-pink);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+    
+    .timeline-content {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        margin-left: 20px;
+        transition: all 0.3s ease;
+    }
+    
+    .timeline-content:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    
+    .about-values {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .value-card {
+        flex: 1;
+        min-width: 100px;
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    
+    .value-card:hover {
+        transform: translateY(-5px);
+        background: var(--primary-color);
+    }
+    
+    .value-icon {
+        font-size: 1.5rem;
+        color: var(--dark-pink);
+        margin-bottom: 10px;
+    }
+    
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
