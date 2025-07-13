@@ -2,7 +2,7 @@
 
 ![Sweet Delights Banner](https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
 
-A responsive website for an artisan cake shop featuring product showcases, team information, customer testimonials, and contact forms.
+A responsive website for a cake shop featuring product showcases, team information, customer testimonials, and contact forms.
 
 ## Features
 
